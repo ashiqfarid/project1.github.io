@@ -1,0 +1,437 @@
+ *{
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+     box-sizing: border-box;
+ }
+ nav{
+     width: 100%;
+     background:darkmagenta ;
+     line-height: 40px;
+     position: relative;
+     font-size: 15px;
+     font-weight: lighter;
+ }
+ nav .logo{
+     float: left;
+     padding-left: 100px;
+     padding-right: 90px;
+     font-size: 30px !important;
+     font-weight: lighter;
+     text-decoration: none !important;
+     list-style: none;
+ }
+ nav a{
+     display: inline-block;
+     text-decoration: none;
+     padding: 20px 20px;
+          color: white;
+ }
+ .icons2{
+     float: right;
+ }
+ nav a:hover{
+    color: darkred;
+
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px; 
+}
+.section1{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.section1 img{
+    width: 100%;
+    height: 400px; 
+}
+.innerbutton{
+    position: absolute;
+}
+.innerbutton h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+   padding-top: 100px;
+   padding-left: 100px;
+}
+.innerbutton p{
+    color: white;
+    font-size: 20px;
+     
+    padding: 20px 100px;
+}
+.innerbutton button{
+    color: black;
+    padding: 20px;
+    margin-left:150px ;
+    margin-top: 20px;
+    width: 200px;
+    line-height: 27px;
+    border-radius: 50px 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    background: black;
+}
+.button1:hover{
+  background: tomato;
+}
+.section2{
+     width: 100%;
+     height: 700px;
+     background: rgb(6, 218, 247);
+     display: inline-flexbox;
+}
+.section2 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:900;
+    padding-top: 50px;
+}
+.linediv{
+    height: 120px;
+    width: 2px;
+    background: rgb(253, 253, 253);
+    margin-top: 190px;
+    margin-left: 70px;
+     
+     
+}
+.ld1{
+    width: 40px;
+    padding-top: 10px;
+    height: 40px;
+}
+.linediv .active{
+    color: tomato;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 20px;
+}
+ .linediv1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 20px;
+}
+ .linediv2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.ld1:hover{
+    color: tomato;
+    background: tomato;
+    width: 2px;
+    height: 40px;
+    overflow: visible;
+}
+.linediv1:hover{
+    color: tomato;
+}
+.linediv2:hover{
+    color: tomato;
+}
+.imgdiv1{
+    float: left;
+    width: 500px;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: -240px;
+}
+.imgdiv1 img{
+    height: 350px;
+    width: 500px;
+}
+.section-text{
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-top: -280px;
+}
+.section-text h1{
+             font-size: 30px;
+             font-weight: 800;
+            text-align: left;
+}
+.section-text p{
+    font-size: 20px;
+    color: rgb(22, 22, 20);
+    padding-top: 40px;
+}
+.btn1{
+    border: none;
+    background: none;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+}
+.btn1 i{
+    padding-left: 10px;
+}
+.btn1:hover{
+    color: tomato;
+    transform: translateX(4%);
+    transition: all 0.5s;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    background: slateblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.section3-d1{
+    background: springgreen;
+    grid-row: 1/5;
+}
+.section3-d1 img{
+   width: 100%;
+   height: 400px;
+    
+}
+.section3-d2{
+    background: teal;
+    grid-row: 1/5;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+.section3-d2 h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.section3-d2 p{
+    padding-top: 30px;
+    font-size: 30px;
+     
+}
+.btn2{
+    margin-top: 40px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: white;
+}
+.btn2 i{
+      padding-left: 10px;   
+
+}
+ .btn2:hover{
+        color: tomato;
+        transform: translateX(4px);
+        transition: all 0.3s;
+}
+.section4{
+    width: 100%;
+    height: 800px;
+   background: white;
+}
+.section4 h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 70px;
+}
+.grid1{
+   width: 100%;
+  height: 550px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 550px;
+  grid-gap: 20px;
+  margin-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.section4-d1{
+    background: silver;
+    position: relative;
+    
+    
+}
+.section4-d1 img{
+    width: 100%;
+    height: 400px; 
+} 
+.section4-d1:hover img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 1s ease-out;
+} 
+.section4-d2{
+    background: silver;
+    position: relative;
+}
+.section4-d2 img{
+    width: 100%;
+    height: 400px; 
+}
+.section4-d2:hover img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 1s ease-out;
+} 
+.section4-d3{
+    background: silver;
+    position: relative;
+}
+.section4-d3 img{
+    width: 100%;
+    height: 400px;
+}
+.section4-d3:hover img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 1s ease-out;
+} 
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: black;
+    color: white;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    color: white;
+  }
+  .top-right:hover{
+      color: tomato;
+  }
+.link1 h1{
+ font-size: 30px;
+ text-align: left;
+ margin-top: -50px;
+ margin-left: 20px;
+} 
+.link1{
+    text-decoration: none;
+    color: white;
+}
+.link1:hover{
+    color: tomato;
+}
+.section4-d1 p{
+  margin-left: 20px;
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+} 
+.section4-d2 p{
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+  } 
+  .section4-d3 p{
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+  } 
+ footer{
+     width: 100%;
+     height: 350px;
+     background: black;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+      
+    
+    }
+    .footer1{
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+ .footer2{
+     padding-top: 90px;
+    padding-left: 60px;
+ }
+ .footer3{
+     padding-top: 170px;
+     padding-left: 10px;
+ }
+ .footer4{
+     padding-top: 90px;
+     padding-left: 30px;
+ }
+ .footer1 h1{
+     font-size: 35px;
+     font-weight: 900;
+     padding-bottom: 30px;
+     color: white;
+ }
+ .footer1 a{
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .footer1 h1 a{
+     color: tomato;
+ }
+ .footer1 p{
+     padding-top: 20px;
+     color:  rgb(163, 156, 156);
+ }
+ .footer1 p a{
+     color:  rgb(163, 156, 156);
+     font-size: 17px;
+ }
+ .footer1 p a:hover{
+     color: tomato;
+    font-size: 17px;
+}
+.footer2 h1{
+    padding-bottom: 20px;
+    color: white;
+}
+.footer2 ul{
+    list-style: none;
+}
+.footer2 li{
+    padding-top: 10px;
+}
+.footer2 ul a{
+      text-decoration: none;
+      color: rgb(163, 156, 156);
+}
+.footer2 a:hover{
+    color: white;
+}
+.footer3 li{
+    list-style: none;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.footer3 li a{
+    text-decoration: none;
+    color: rgb(163, 156, 156);
+}
+.footer3 li a:hover{
+    color: white;
+}
+.footer4 h1{
+    color: white;
+    font-size: 35px;
+    padding-left: 10px;
+}
+.footer4 i{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+    color:  rgb(163, 156, 156);
+}
+.footer4 i:hover{
+    color:white;
+}
